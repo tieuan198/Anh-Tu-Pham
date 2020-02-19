@@ -11,13 +11,13 @@ public class MovieDriver {
 		String answer;
 		do
 		{
-			System.out.println("Enter the tille of a movie: ");
+			System.out.println("Enter the name of a movie: ");
 			title = keyboard.nextLine();
 			movieObject.setTitle(title);
-			System.out.println("Enter the movie's rating: ");
+			System.out.println("Enter the rating of the movie: ");
 			rating = keyboard.nextLine();
 			movieObject.setRating(rating);
-			System.out.println("Enter the number of tickets sold at a (unnamed) theater: ");
+			System.out.println("Enter the number of tickets sold for this movie: ");
 			soldTickets = keyboard.nextInt();
 			movieObject.setSoldTickets(soldTickets);
 			System.out.println(movieObject.toString());
